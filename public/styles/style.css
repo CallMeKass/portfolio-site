@@ -1,9 +1,11 @@
 /** @format */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   background-color: rgb(20, 20, 20);
   margin: 0px;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #menu {
