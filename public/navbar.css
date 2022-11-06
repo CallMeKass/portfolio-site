@@ -2,42 +2,38 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-body {
+.topnav {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
   background-color: whitesmoke;
+  box-shadow: 0px 0px 2px #000000;
 }
 
-* {
-  box-sizing: border-box;
+.topnav * {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-header {
-  display: flex;
-  text-transform: uppercase;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 10px;
-  background-color: whitesmoke;
-  box-shadow: 0px 0px 2px #000000;
-}
-
-.logo {
+.nav-left {
   cursor: pointer;
   display: flex;
 }
 
-.logo h1 {
+.nav-left {
   font-size: 20px;
   padding: 0px 10px;
   color: black;
 }
 
-.logo h1 span {
+.nav-left span {
   /* color: rgb(134, 103, 240); */
   color: rgba(0, 0, 0);
-  padding-left: 2px;
+  padding-left: 6px;
   opacity: 20%;
 }
 
@@ -62,7 +58,10 @@ header {
   color: rgb(134, 103, 240);
 }
 
-.logo:hover h1,
-.logo:hover h1 span {
+.nav-left:hover,
+.nav-left:hover span {
   color: rgba(134, 103, 240);
+}
+
+@media screen and (max-width: 735px) {
 }
